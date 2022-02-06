@@ -1,0 +1,6 @@
+PKG_CPPFLAGS = -DRCPP_USE_UNWIND_PROTECT
+
+all: clean
+
+clean:
+	rm -f $(SHLIB) $(OBJECTS)
